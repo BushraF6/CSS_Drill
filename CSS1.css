@@ -17,18 +17,15 @@
   .h2{
     margin-left: 28px;
   }
-  .box3{
-     background-color: #99dbca;
-     border: 6px solid #5873E2;
-     height: 60px;
-     width: 60px;
-  }
-  .box2{
-    border: 4px solid black;
-  }
   .box1{
-    border: 8px solid #90FFA9;
-    border-radius: 12px;
+    height: 100px;
+    width: 100px;
+    background-color: #99D8CA;
+    border: 5px solid #0D1430;
+    padding: 10px;
+    box-shadow: inset 0 0 0 10px #5181fc;
+    outline: 10px solid #27f56c;
+    border-radius: 7px;
   }
   .colours{
     display: flex;
@@ -58,6 +55,7 @@
     background-color: #5873E2;
   }
   .para{
+    display: flex;
   }
   .lines{
     width: 35vw;
